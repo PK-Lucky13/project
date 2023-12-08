@@ -9,10 +9,14 @@
 //Se XP for entre 9.001 e 10.000= Imortal
 //Se XP for maior ou igual a 10.001 = Radiante
 
+// Luta com monstro até aumentar o XP enquanto o mana não acabar
+// XP aumenta dinamicamente, mudando o switch case
+
 const heroi = {
   nome: "Gandalf",
   nivel: "",
   xp: 99999,
+  mana: 100,
 };
 
 switch (true) {
@@ -44,4 +48,4 @@ switch (true) {
     heroi.nivel = "Indefinido";
 }
 
-console.log(heroi.nivel);
+console.log("O Herói "+heroi.nome+" está no nível "+heroi.nivel);
