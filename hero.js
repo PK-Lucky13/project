@@ -12,7 +12,7 @@
 // Luta com monstro até aumentar o XP enquanto o mana não acabar
 // XP aumenta dinamicamente, mudando o switch case
 
-const heroi = {
+let heroi = {
   nome: "Gandalf",
   nivel: "",
   xp: 99999,
